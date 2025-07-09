@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-
 import { launchScan } from "../services/scanServices";
 import ScanForm from "../components/ScanForm";
 import SettingsPanel from "../components/SettingsPanel";
-import ResultsTable from "../components/ResultTable";
-import ResultsChart from "../components/ResultChart";
 import ReportDownload from "../components/ReportDownload";
+import ResultsTable from "../components/ResultsTable";
+import ResultsChart from "../components/ResultsChart";
 
 /**
  * Page principale du dashboard.
